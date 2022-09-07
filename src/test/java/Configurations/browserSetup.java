@@ -12,8 +12,8 @@ public class browserSetup {
      */
 
     public static String dir = System.getProperty("user.dir"); //Getting user Directory
-    public static String Chromedriver = dir + "/Drivers/chromedriver.exe";//creating Chromedriver Directory
-    public static String Firefoxdriver = dir + "/Drivers/geckodriver.exe";//creating Firefox Directory
+    public static String Chromedriver = dir + "/Drivers/chromedriver";//creating Chromedriver Directory
+    public static String Firefoxdriver = dir + "/Drivers/geckodriver";//creating Firefox Directory
     static WebDriver driver;
     public static WebDriver startBrowser(String browserchoice, String url){
         if("firefox".equalsIgnoreCase(browserchoice)){
